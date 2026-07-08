@@ -1,0 +1,16 @@
+/* ===========================
+   Global Container
+=========================== */
+
+.container {
+    width: min(var(--container-width), 90%);
+    margin: 0 auto;
+}
+
+/* ===========================
+   Section Spacing
+=========================== */
+
+.section {
+    padding: var(--section-padding) 0;
+}

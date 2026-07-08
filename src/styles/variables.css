@@ -1,0 +1,44 @@
+:root {
+
+  /* Colors */
+
+  --bg-color: #0F172A;
+  --surface-color: #1E293B;
+
+  --primary-color: #2563EB;
+  --primary-hover: #1D4ED8;
+
+  --accent-color: #38BDF8;
+
+  --text-color: #F8FAFC;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+
+  /* Borders */
+
+  --border-color: rgba(255,255,255,.08);
+
+  /* Border Radius */
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+
+  /* Shadows */
+
+  --shadow:
+      0 10px 30px rgba(0,0,0,.25);
+
+  /* Layout */
+
+  --navbar-height: 80px;
+
+  --container-width: 1200px;
+
+  --section-padding: 100px;
+
+  /* Animation */
+
+  --transition: .3s ease;
+
+}
