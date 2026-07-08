@@ -1,5 +1,11 @@
 import "./Services.css";
 
+import {
+  Laptop,
+  Scale,
+  Brush,
+} from "lucide-react";
+
 function Services() {
   return (
     <section className="services section" id="services">
@@ -18,13 +24,11 @@ function Services() {
 
           <div className="service-card">
 
-            <span className="service-icon">
-              💻
-            </span>
+            <div className="service-icon">
+              <Laptop size={42} strokeWidth={2.25} />
+            </div>
 
-            <h3>
-              Front-End Development
-            </h3>
+            <h3>Front-End Development</h3>
 
             <p>
               I build responsive web applications,
@@ -37,13 +41,11 @@ function Services() {
 
           <div className="service-card">
 
-            <span className="service-icon">
-              ⚖️
-            </span>
+            <div className="service-icon">
+              <Scale size={42} strokeWidth={2.25} />
+            </div>
 
-            <h3>
-              Virtual Legal Assistance
-            </h3>
+            <h3>Virtual Legal Assistance</h3>
 
             <p>
               Experienced in document organization,
@@ -55,13 +57,11 @@ function Services() {
 
           <div className="service-card">
 
-            <span className="service-icon">
-              🎨
-            </span>
+            <div className="service-icon">
+              <Brush size={42} strokeWidth={2.25} />
+            </div>
 
-            <h3>
-              Creative Design
-            </h3>
+            <h3>Creative Design</h3>
 
             <p>
               Graphic design, branding,
