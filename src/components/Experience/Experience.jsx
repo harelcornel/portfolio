@@ -50,7 +50,7 @@ function Experience() {
 
             <div className="timeline-content">
 
-              <h3>Administrative & Payroll Manager</h3>
+              <h3>Administrative & Payroll Manager - Part Time</h3>
 
               <h4>Susan's Veranda</h4>
 
