@@ -89,6 +89,22 @@
   transition: var(--transition);
 }
 
+.resume-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+}
+
+.secondary-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+}
+
 .resume-btn:hover {
   background: var(--primary-hover);
 

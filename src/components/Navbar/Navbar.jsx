@@ -13,12 +13,17 @@ function Navbar() {
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <button className="resume-btn">
-          Resume
-        </button>
+          <a
+            href="/files/Harel_Cornel_Resume.pdf"
+            download
+            className="resume-btn"
+          >
+            Resume
+          </a>
 
       </div>
     </nav>

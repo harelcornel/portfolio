@@ -31,9 +31,13 @@ function Hero() {
               View My Work →
             </button>
 
-            <button className="secondary-btn">
-              Download Resume
-            </button>
+              <a
+                href="/files/Harel_Cornel_Resume.pdf"
+                download
+                className="secondary-btn"
+              >
+                Download Resume
+              </a>
           </div>
 
           <div className="scroll-down">
