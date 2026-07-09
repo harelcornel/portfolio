@@ -12,7 +12,8 @@
     background: var(--surface-color);
     border: 1px solid var(--border-color);
     border-radius: var(--radius-lg);
-    padding: 40px;
+    overflow: hidden;
+    padding: 30px;
     transition: var(--transition);
 }
 
@@ -50,16 +51,68 @@
 }
 
 .project-links {
-    display: flex;
-    gap: 20px;
+
+display:flex;
+
+gap:16px;
+
+margin-top:25px;
+
 }
 
-.project-links a {
-    color: var(--accent-color);
-    text-decoration: none;
-    font-weight: 600;
+.project-links a{
+
+padding:12px 20px;
+
+border-radius:10px;
+
+background:var(--primary-color);
+
+color:white;
+
+text-decoration:none;
+
+font-weight:600;
+
+transition:.3s;
+
 }
 
-.project-links a:hover {
-    text-decoration: underline;
+.project-links a:hover{
+
+transform:translateY(-2px);
+
+}
+
+.project-image {
+
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    object-fit: cover;
+
+    object-position: top;
+
+    border-radius: 12px;
+
+    border: 1px solid var(--border-color);
+
+    margin: 18px 0 24px;
+
+    transition: transform .3s ease;
+
+}
+
+.project-card:hover .project-image {
+
+    transform: scale(1.015);
+
+
+}
+
+.project-card:hover .project-image{
+
+    transform:scale(1.02);
+
 }

@@ -1,0 +1,103 @@
+/* ===========================
+   Footer
+=========================== */
+
+.footer {
+
+    margin-top: 100px;
+    padding: 70px 0;
+
+    border-top: 1px solid var(--border-color);
+
+    background: var(--surface-color);
+
+}
+
+.footer .container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.footer-logo {
+
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+
+}
+
+.footer-logo span {
+
+    color: var(--primary-color);
+
+}
+
+.footer-title {
+
+    color: var(--text-secondary);
+
+    margin-bottom: 35px;
+
+    font-size: 1rem;
+
+}
+
+.footer-links {
+
+    display: flex;
+    gap: 35px;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    margin-bottom: 35px;
+
+}
+
+.footer-links a {
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: var(--text-muted);
+
+    text-decoration: none;
+
+    transition: var(--transition);
+
+}
+
+.footer-links a:hover {
+
+    color: var(--primary-color);
+
+}
+
+.footer-copy {
+
+    color: var(--text-muted);
+
+    font-size: .9rem;
+
+}
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media (max-width: 768px) {
+
+    .footer-links {
+
+        flex-direction: column;
+        gap: 18px;
+
+    }
+
+}

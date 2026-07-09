@@ -1,5 +1,8 @@
 import "./Projects.css";
 
+import debtCalculator from "../../assets/images/debt-calculator.png";
+import portfolio from "../../assets/images/portfolio.png";
+
 function Projects() {
   return (
     <section className="projects section" id="projects">
@@ -18,6 +21,12 @@ function Projects() {
           <article className="project-card">
 
             <h3>Debt Payoff Calculator</h3>
+
+            <img
+              src={debtCalculator}
+              alt="Debt Payoff Calculator"
+              className="project-image"
+            />
 
             <p>
               A React application that helps users calculate monthly loan payments,
@@ -56,6 +65,12 @@ function Projects() {
 
             <h3>Portfolio Website</h3>
 
+            <img
+              src={portfolio}
+              alt="Portfolio Website"
+              className="project-image"
+            />
+
             <p>
               A modern portfolio built with React that showcases my
               projects, experience, and front-end development skills.
@@ -68,8 +83,8 @@ function Projects() {
             </div>
 
             <div className="project-links">
-              <a href="#">Live Demo</a>
-              <a href="#">GitHub</a>
+              <a href="#">🌐 Live Demo</a>
+              <a href="#">📂 GitHub</a>
             </div>
 
           </article>
