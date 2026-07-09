@@ -25,7 +25,7 @@ function Experience() {
 
             <div className="timeline-content">
 
-              <h3>Virtual Legal Assistant</h3>
+              <h3>Virtual Legal Assistant - Training </h3>
 
               <h4>Legal Support Help (LSH)</h4>
 

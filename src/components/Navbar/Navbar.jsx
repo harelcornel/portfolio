@@ -6,16 +6,15 @@ function Navbar() {
       <div className="container">
 
         <div className="logo">
-          Harel.
+          Harel<span>.</span>
         </div>
 
-        <ul className="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+          <ul className="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
 
           <a
             href="/files/Harel_Cornel_Resume.pdf"

@@ -2,43 +2,43 @@
 
   /* Colors */
 
-  --bg-color: #0F172A;
-  --surface-color: #1E293B;
+  --bg-color: #09090B;
+  --surface-color: #111113;
 
-  --primary-color: #2563EB;
-  --primary-hover: #1D4ED8;
+  --primary-color: #FAFAFA;
+  --primary-hover: #E4E4E7;
 
-  --accent-color: #38BDF8;
+  --accent-color: #3B82F6;
 
-  --text-color: #F8FAFC;
-  --text-secondary: #CBD5E1;
-  --text-muted: #94A3B8;
+  --text-color: #FAFAFA;
+  --text-secondary: #D4D4D8;
+  --text-muted: #A1A1AA;
 
   /* Borders */
 
-  --border-color: rgba(255,255,255,.08);
+  --border-color: #27272A;
 
   /* Border Radius */
 
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 18px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
 
   /* Shadows */
 
   --shadow:
-      0 10px 30px rgba(0,0,0,.25);
+    0 10px 30px rgba(0, 0, 0, .35);
 
   /* Layout */
 
   --navbar-height: 80px;
 
-  --container-width: 1200px;
+  --container-width: 1180px;
 
-  --section-padding: 100px;
+  --section-padding: 120px;
 
   /* Animation */
 
-  --transition: .3s ease;
+  --transition: .25s ease;
 
 }
