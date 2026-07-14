@@ -27,9 +27,9 @@ function Hero() {
           </p>
 
           <div className="hero-buttons">
-            <button className="primary-btn">
-              View My Work →
-            </button>
+              <a href="#projects" className="primary-btn">
+                View My Work
+              </a>
 
               <a
                 href="/files/Harel_Cornel_Resume.pdf"
