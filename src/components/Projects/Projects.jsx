@@ -20,7 +20,7 @@ function Projects() {
 
           <article className="project-card">
 
-            <h3>Debt Payoff Calculator</h3>
+            <h3>DebtPilot</h3>
 
             <img
               src={debtCalculator}
@@ -29,9 +29,7 @@ function Projects() {
             />
 
             <p>
-              A React application that helps users calculate monthly loan payments,
-              compare repayment strategies, and estimate remaining balances through
-              an intuitive financial calculator.
+              A modern debt payoff planner that compares the Avalanche and Snowball strategies with interactive charts, payoff timelines, and support for both APR and monthly interest rates.
             </p>
 
             <div className="project-tags">
@@ -43,7 +41,7 @@ function Projects() {
 
             <div className="project-links">
               <a
-                href="https://debt-payoff-calculator-self.vercel.app/"
+                href="https://debt-pilot-self.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -51,7 +49,7 @@ function Projects() {
               </a>
 
               <a
-                href="https://github.com/harelcornel/debt-payoff-calculator"
+                href="https://github.com/harelcornel/debt-pilot"
                 target="_blank"
                 rel="noopener noreferrer"
               >
