@@ -19,8 +19,10 @@ function Projects() {
         <div className="projects-grid">
 
           <article className="project-card">
-
-            <h3>DebtPilot</h3>
+            <div className="featured-badge">
+                ⭐ Featured Project
+            </div>
+            <h3>Debt Pilot</h3>
 
             <img
               src={debtCalculator}
@@ -33,10 +35,12 @@ function Projects() {
             </p>
 
             <div className="project-tags">
-              <span>React</span>
-              <span>JavaScript</span>
-              <span>Vite</span>
-              <span>CSS</span>
+              <span className="react">React</span>
+              <span className="javascript">JavaScript</span>
+              <span className="tailwind">Tailwind CSS</span>
+              <span className="shadcn">shadcn/ui</span>
+              <span className="vite">Vite</span>
+              <span className="vercel">Vercel</span>
             </div>
 
             <div className="project-links">
@@ -75,9 +79,11 @@ function Projects() {
             </p>
 
             <div className="project-tags">
-              <span>React</span>
-              <span>Responsive</span>
-              <span>CSS</span>
+              <span className="react">React</span>
+              <span className="javascript">JavaScript</span>
+              <span className="css">CSS3</span>
+              <span className="responsive">Responsive Design</span>
+              <span className="vercel">Vercel</span>
             </div>
 
             <div className="project-links">
@@ -98,9 +104,10 @@ function Projects() {
             </p>
 
             <div className="project-tags">
-              <span>Operations</span>
-              <span>Design</span>
-              <span>Administration</span>
+              <span className="operations">Operations</span>
+              <span className="payroll">Payroll</span>
+              <span className="design">Graphic Design</span>
+              <span className="marketing">Marketing</span>
             </div>
 
           </article>
